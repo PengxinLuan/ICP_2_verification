@@ -1,0 +1,819 @@
+m255
+K4
+z2
+!s11f vlog 2024.1 2024.02, Feb  1 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/luanp/Desktop/ICP2/learning_code_uvm/start
+valu
+Z0 2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/alu.sv
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 DXx4 work 6 common 0 22 ]G6@S@eS_fe9L@`ZL5H7z2
+DXx4 work 11 alu_sv_unit 0 22 >G8U?TFI3]7cD[aGhb:a:3
+Z3 !s110 1765818174
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 33D0gg56<Qb6OEno46oNM3
+I8RWLWbFUdPTdBIIacHd@l3
+!s105 alu_sv_unit
+S1
+Z5 dC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification
+Z6 w1765817481
+Z7 8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/alu.sv
+Z8 FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/alu.sv
+!i122 37
+L0 5 61
+Z9 OL;L;2024.1;79
+31
+Z10 !s108 1765818173.000000
+Z11 !s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/alu.sv|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/alu.sv|
+!i113 0
+Z13 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 tCvgOpt 0
+Xalu_sv_unit
+R0
+R1
+R2
+R3
+V>G8U?TFI3]7cD[aGhb:a:3
+r1
+!s85 0
+!i10b 1
+!s100 e:7F<<4?ad9T<9^>PIf[B2
+I>G8U?TFI3]7cD[aGhb:a:3
+!i103 1
+S1
+R5
+R6
+R7
+R8
+!i122 37
+Z15 L0 3 0
+R9
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Xcommon
+2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/common.sv
+R1
+R3
+!i10b 1
+!s100 T5CnX>bN;nle9`RHL<?;W1
+I]G6@S@eS_fe9L@`ZL5H7z2
+S1
+R5
+R6
+8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/common.sv
+FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/common.sv
+!i122 38
+R15
+V]G6@S@eS_fe9L@`ZL5H7z2
+R9
+r1
+!s85 0
+31
+Z16 !s108 1765818174.000000
+!s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/common.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/common.sv|
+!i113 0
+R13
+R14
+vcontrol
+Z17 2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/control.sv
+R1
+R2
+DXx4 work 15 control_sv_unit 0 22 mTn4[]>P_NKVT=n3i6kGh3
+R3
+R4
+r1
+!s85 0
+!i10b 1
+!s100 Djfn3WW0IQnT6`BE@7=^D2
+I2]5[oP^LDOWDnHjGgMI0m0
+!s105 control_sv_unit
+S1
+R5
+R6
+Z18 8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/control.sv
+Z19 FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/control.sv
+!i122 39
+L0 6 153
+R9
+31
+R16
+Z20 !s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/control.sv|
+Z21 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/control.sv|
+!i113 0
+R13
+R14
+Xcontrol_sv_unit
+R17
+R1
+R2
+R3
+VmTn4[]>P_NKVT=n3i6kGh3
+r1
+!s85 0
+!i10b 1
+!s100 XOzMdZEREZW6h96G3n>C;0
+ImTn4[]>P_NKVT=n3i6kGh3
+!i103 1
+S1
+R5
+R6
+R18
+R19
+!i122 39
+R15
+R9
+31
+R16
+R20
+R21
+!i113 0
+R13
+R14
+vcpu
+Z22 2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/cpu.sv
+R1
+R2
+DXx4 work 11 cpu_sv_unit 0 22 4DhnObSM@8X;?P=kK5z6:1
+R3
+R4
+r1
+!s85 0
+!i10b 1
+!s100 W>8U3H8]=<AT`BPcNWK<R2
+I@fSIXRFZR0FDl10C;>`CJ2
+!s105 cpu_sv_unit
+S1
+R5
+R6
+Z23 8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/cpu.sv
+Z24 FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/cpu.sv
+!i122 40
+L0 6 359
+R9
+31
+R16
+Z25 !s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/cpu.sv|
+Z26 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/cpu.sv|
+!i113 0
+R13
+R14
+vcpu_ILA
+Z27 2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/cpu_ILA.sv
+R1
+R2
+DXx4 work 15 cpu_ILA_sv_unit 0 22 1CI70TS8_kg[WTeVolLP;1
+R3
+R4
+r1
+!s85 0
+!i10b 1
+!s100 aik0Z;:0<M4Y1@2:a]To[2
+IP4QcXFZGEejX`XWPcdflS1
+!s105 cpu_ILA_sv_unit
+S1
+R5
+R6
+Z28 8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/cpu_ILA.sv
+Z29 FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/cpu_ILA.sv
+!i122 41
+L0 5 34
+R9
+31
+R16
+Z30 !s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/cpu_ILA.sv|
+Z31 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/cpu_ILA.sv|
+!i113 0
+R13
+R14
+ncpu_@i@l@a
+Xcpu_ILA_sv_unit
+R27
+R1
+R2
+R3
+V1CI70TS8_kg[WTeVolLP;1
+r1
+!s85 0
+!i10b 1
+!s100 MO=Zj5=BfVz^goELBmB:e1
+I1CI70TS8_kg[WTeVolLP;1
+!i103 1
+S1
+R5
+R6
+R28
+R29
+!i122 41
+R15
+R9
+31
+R16
+R30
+R31
+!i113 0
+R13
+R14
+ncpu_@i@l@a_sv_unit
+Xcpu_sv_unit
+R22
+R1
+R2
+R3
+V4DhnObSM@8X;?P=kK5z6:1
+r1
+!s85 0
+!i10b 1
+!s100 kJ_>hNQozMcKeEBkAmb?B1
+I4DhnObSM@8X;?P=kK5z6:1
+!i103 1
+S1
+R5
+R6
+R23
+R24
+!i122 40
+R15
+R9
+31
+R16
+R25
+R26
+!i113 0
+R13
+R14
+vdata_memory
+2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/data_memory.sv
+R1
+Z32 !s110 1765818175
+!i10b 1
+!s100 GB6fm[lA40I_^kKaE7@DU1
+IEXTH`nV2zk0>P^76jlh5z2
+S1
+R5
+R6
+8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/data_memory.sv
+FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/data_memory.sv
+!i122 42
+L0 3 119
+R4
+R9
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/data_memory.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/data_memory.sv|
+!i113 0
+R13
+R14
+vdecode_stage
+Z33 2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/decode_stage.sv
+R1
+R2
+DXx4 work 20 decode_stage_sv_unit 0 22 DPQ4o8FLUW]SGeBOmJTn<3
+R32
+R4
+r1
+!s85 0
+!i10b 1
+!s100 _[VZK=N>:G]L1?M3BZ^j:2
+I0Tc[IkFRD8aSS51I?c`TA0
+!s105 decode_stage_sv_unit
+S1
+R5
+R6
+Z34 8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/decode_stage.sv
+Z35 FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/decode_stage.sv
+!i122 43
+L0 6 91
+R9
+31
+Z36 !s108 1765818175.000000
+Z37 !s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/decode_stage.sv|
+Z38 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/decode_stage.sv|
+!i113 0
+R13
+R14
+Xdecode_stage_sv_unit
+R33
+R1
+R2
+R32
+VDPQ4o8FLUW]SGeBOmJTn<3
+r1
+!s85 0
+!i10b 1
+!s100 ==0?AJNmgcodhXAmFFZe92
+IDPQ4o8FLUW]SGeBOmJTn<3
+!i103 1
+S1
+R5
+R6
+R34
+R35
+!i122 43
+R15
+R9
+31
+R36
+R37
+R38
+!i113 0
+R13
+R14
+vexecute_stage
+Z39 2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/execute_stage.sv
+R1
+R2
+DXx4 work 21 execute_stage_sv_unit 0 22 X[8W_jn8N]h@?2@K:LG?f3
+R32
+R4
+r1
+!s85 0
+!i10b 1
+!s100 boLA1e;inFe;fM[ciB2Dh0
+IVlXoB;YnacKLdI9N_WeN00
+!s105 execute_stage_sv_unit
+S1
+R5
+R6
+Z40 8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/execute_stage.sv
+Z41 FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/execute_stage.sv
+!i122 44
+L0 6 97
+R9
+31
+R36
+Z42 !s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/execute_stage.sv|
+Z43 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/execute_stage.sv|
+!i113 0
+R13
+R14
+Xexecute_stage_sv_unit
+R39
+R1
+R2
+R32
+VX[8W_jn8N]h@?2@K:LG?f3
+r1
+!s85 0
+!i10b 1
+!s100 NKW]h`?F`HE6@Dn_7D0b:3
+IX[8W_jn8N]h@?2@K:LG?f3
+!i103 1
+S1
+R5
+R6
+R40
+R41
+!i122 44
+R15
+R9
+31
+R36
+R42
+R43
+!i113 0
+R13
+R14
+vfetch_stage
+Z44 2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/fetch_stage.sv
+R1
+R2
+DXx4 work 19 fetch_stage_sv_unit 0 22 T3VTTfI<UI=aF:g@YhDPM3
+R32
+R4
+r1
+!s85 0
+!i10b 1
+!s100 :f]W<gWzmcG038Ci_99?81
+I5CVjmWb9a`1FCnE;HnUTD0
+!s105 fetch_stage_sv_unit
+S1
+R5
+R6
+Z45 8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/fetch_stage.sv
+Z46 FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/fetch_stage.sv
+!i122 45
+L0 5 344
+R9
+31
+R36
+Z47 !s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/fetch_stage.sv|
+Z48 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/fetch_stage.sv|
+!i113 0
+R13
+R14
+Xfetch_stage_sv_unit
+R44
+R1
+R2
+R32
+VT3VTTfI<UI=aF:g@YhDPM3
+r1
+!s85 0
+!i10b 1
+!s100 Q<8Hb<:8Pc[LYzW]milA=3
+IT3VTTfI<UI=aF:g@YhDPM3
+!i103 1
+S1
+R5
+R6
+R45
+R46
+!i122 45
+R15
+R9
+31
+R36
+R47
+R48
+!i113 0
+R13
+R14
+vforwarding_unit
+Z49 2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/forwarding_unit.sv
+R1
+R2
+DXx4 work 23 forwarding_unit_sv_unit 0 22 lZ?ffYN31TA]0NVJ079DA2
+R32
+R4
+r1
+!s85 0
+!i10b 1
+!s100 l5Ih02Y=B552U=TI890jj2
+IzmGJ2N0DEGLb2f@ie?K:i0
+!s105 forwarding_unit_sv_unit
+S1
+R5
+R6
+Z50 8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/forwarding_unit.sv
+Z51 FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/forwarding_unit.sv
+!i122 46
+L0 5 44
+R9
+31
+R36
+Z52 !s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/forwarding_unit.sv|
+Z53 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/forwarding_unit.sv|
+!i113 0
+R13
+R14
+Xforwarding_unit_sv_unit
+R49
+R1
+R2
+R32
+VlZ?ffYN31TA]0NVJ079DA2
+r1
+!s85 0
+!i10b 1
+!s100 G4XR8=`bK^B_i77F5:=JA1
+IlZ?ffYN31TA]0NVJ079DA2
+!i103 1
+S1
+R5
+R6
+R50
+R51
+!i122 46
+R15
+R9
+31
+R36
+R52
+R53
+!i113 0
+R13
+R14
+vgshare_predictor
+2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/gshare_predictor.sv
+R1
+Z54 !s110 1765818176
+!i10b 1
+!s100 PG7UfjUTk2f_5]BKLiKW]0
+ITDl:IBh@f@V`166fe^Ecn1
+S1
+R5
+R6
+8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/gshare_predictor.sv
+FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/gshare_predictor.sv
+!i122 47
+L0 3 56
+R4
+R9
+r1
+!s85 0
+31
+Z55 !s108 1765818176.000000
+!s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/gshare_predictor.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/gshare_predictor.sv|
+!i113 0
+R13
+R14
+vinstr_decompressor
+Z56 2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/instr_decompressor.sv
+R1
+R2
+DXx4 work 26 instr_decompressor_sv_unit 0 22 5Y5eVB?0CnmKOMoV9^HFL0
+R54
+R4
+r1
+!s85 0
+!i10b 1
+!s100 SYXbzZnjLGC>FKLddmBlQ0
+Ij4e:`JOY3NzTWNN>_D]>l2
+!s105 instr_decompressor_sv_unit
+S1
+R5
+R6
+Z57 8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/instr_decompressor.sv
+Z58 FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/instr_decompressor.sv
+!i122 48
+L0 5 301
+R9
+31
+R55
+Z59 !s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/instr_decompressor.sv|
+Z60 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/instr_decompressor.sv|
+!i113 0
+R13
+R14
+Xinstr_decompressor_sv_unit
+R56
+R1
+R2
+R54
+V5Y5eVB?0CnmKOMoV9^HFL0
+r1
+!s85 0
+!i10b 1
+!s100 bnhILX43loWlPj3DEJ?:i1
+I5Y5eVB?0CnmKOMoV9^HFL0
+!i103 1
+S1
+R5
+R6
+R57
+R58
+!i122 48
+R15
+R9
+31
+R55
+R59
+R60
+!i113 0
+R13
+R14
+vmem_stage
+Z61 2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/mem_stage.sv
+R1
+R2
+DXx4 work 17 mem_stage_sv_unit 0 22 9RK2=8CzeJK25libTFY4S0
+R54
+R4
+r1
+!s85 0
+!i10b 1
+!s100 ZQdAPj>`S:>O0HU7Oo>W_3
+I5]BAZG31e]kfMEE]RgOMc1
+!s105 mem_stage_sv_unit
+S1
+R5
+R6
+Z62 8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/mem_stage.sv
+Z63 FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/mem_stage.sv
+!i122 49
+L0 6 29
+R9
+31
+R55
+Z64 !s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/mem_stage.sv|
+Z65 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/mem_stage.sv|
+!i113 0
+R13
+R14
+Xmem_stage_sv_unit
+R61
+R1
+R2
+R54
+V9RK2=8CzeJK25libTFY4S0
+r1
+!s85 0
+!i10b 1
+!s100 njSPF1F8Wn0zQn=Hc2gz:2
+I9RK2=8CzeJK25libTFY4S0
+!i103 1
+S1
+R5
+R6
+R62
+R63
+!i122 49
+R15
+R9
+31
+R55
+R64
+R65
+!i113 0
+R13
+R14
+vprogram_memory
+2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/program_memory.sv
+R1
+R54
+!i10b 1
+!s100 ;68:G;IGoJY500C_`H;NA1
+IH`CzUeFSmEd8NF>aL>FiW3
+S1
+R5
+R6
+8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/program_memory.sv
+FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/program_memory.sv
+!i122 50
+L0 3 241
+R4
+R9
+r1
+!s85 0
+31
+R55
+!s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/program_memory.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/program_memory.sv|
+!i113 0
+R13
+R14
+vregister_file
+Z66 2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/register_file.sv
+R1
+R2
+DXx4 work 21 register_file_sv_unit 0 22 :OI1TFdS6Phj4>GL7Ye<e3
+R54
+R4
+r1
+!s85 0
+!i10b 1
+!s100 aP]_U64<DPcBOe8OCih7_0
+IPMej53U4A[ja1V?P@^ecU2
+!s105 register_file_sv_unit
+S1
+R5
+R6
+Z67 8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/register_file.sv
+Z68 FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/register_file.sv
+!i122 51
+L0 5 35
+R9
+31
+R55
+Z69 !s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/register_file.sv|
+Z70 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/register_file.sv|
+!i113 0
+R13
+R14
+Xregister_file_sv_unit
+R66
+R1
+R2
+R54
+V:OI1TFdS6Phj4>GL7Ye<e3
+r1
+!s85 0
+!i10b 1
+!s100 =IB3@o[2ZUXmNJ=M3NY[N0
+I:OI1TFdS6Phj4>GL7Ye<e3
+!i103 1
+S1
+R5
+R6
+R67
+R68
+!i122 51
+R15
+R9
+31
+R55
+R69
+R70
+!i113 0
+R13
+R14
+vstall_unit
+2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/stall_unit.sv
+R1
+Z71 !s110 1765818177
+!i10b 1
+!s100 A@?4YNVYf2T3ME`^K2ml>2
+I@K[]bn_OBOZPZY<SP3bMl3
+S1
+R5
+R6
+8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/stall_unit.sv
+FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/stall_unit.sv
+!i122 52
+L0 4 38
+R4
+R9
+r1
+!s85 0
+31
+Z72 !s108 1765818177.000000
+!s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/stall_unit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/stall_unit.sv|
+!i113 0
+R13
+R14
+vTOP
+2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/TOP.sv
+R1
+R71
+!i10b 1
+!s100 TUR>cY4Ma6Y?A[HMJQjO?0
+I<Bb6NoBJogdQa@CA2@[Xc0
+S1
+R5
+R6
+8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/TOP.sv
+FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/TOP.sv
+!i122 53
+L0 23 46
+R4
+R9
+r1
+!s85 0
+31
+R72
+!s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/TOP.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/TOP.sv|
+!i113 0
+R13
+R14
+n@t@o@p
+vuart
+2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/uart.sv
+R1
+R71
+!i10b 1
+!s100 VKEGOEDNE]0B7Zhe<CQ>30
+I>[gD44D[z2FH2@6]FRK:V2
+S1
+R5
+R6
+8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/uart.sv
+FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/uart.sv
+!i122 54
+L0 4 98
+R4
+R9
+r1
+!s85 0
+31
+R72
+!s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/uart.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/uart.sv|
+!i113 0
+R13
+R14
+vuart_wrapper
+2C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/uart_wrapper.sv
+R1
+R71
+!i10b 1
+!s100 Ekm`SZgdNQ<:ho7`DH`UU0
+IZTJ>;]zOBfZ>I3G2?U5E41
+S1
+R5
+R6
+8C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/uart_wrapper.sv
+FC:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/uart_wrapper.sv
+!i122 55
+L0 4 110
+R4
+R9
+r1
+!s85 0
+31
+R72
+!s107 C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/uart_wrapper.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/luanp/Desktop/ICP2/learning_code_uvm/ICP_2_verification/generated_execute_tb/dut/uart_wrapper.sv|
+!i113 0
+R13
+R14
