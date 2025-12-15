@@ -31,34 +31,76 @@ class execute_out_coverage extends uvm_subscriber #(execute_out_tx);
 
   covergroup m_cov;
     option.per_instance = 1;
-    // You may insert additional coverpoints here ...
 
+
+=======
+
+    // ---------- 控制类（必须覆盖） ----------
+    cp_pc_src: coverpoint m_item.pc_src { bins b0 = {0}; bins b1 = {1}; }
+    cp_jalr_flag: coverpoint m_item.jalr_flag { bins b0 = {0}; bins b1 = {1}; }
+    cp_overflow: coverpoint m_item.overflow { bins b0 = {0}; bins b1 = {1}; }
+
+    // control_out 如果是 enum/小位宽，直接覆盖没问题；
+    // 如果位宽很大，也建议加 bins（但你没给定义，我先保守）
     cp_control_out: coverpoint m_item.control_out;
-    //  Add bins here if required
 
-    cp_alu_data: coverpoint m_item.alu_data;
-    //  Add bins here if required
+    // ---------- 数据类（不要全值域覆盖，用“形态覆盖”） ----------
+    // alu_data：零/非零，符号，简单范围
+    cp_alu_zero: coverpoint (m_item.alu_data == 32'h0) { bins zero = {1}; bins nonzero = {0}; }
+    cp_alu_sign: coverpoint m_item.alu_data[31] { bins pos = {0}; bins neg = {1}; }
 
-    cp_memory_data: coverpoint m_item.memory_data;
-    //  Add bins here if required
+    // memory_data：零/非零
+    cp_mem_zero: coverpoint (m_item.memory_data == 32'h0) { bins zero = {1}; bins nonzero = {0}; }
 
-    cp_pc_src: coverpoint m_item.pc_src;
-    //  Add bins here if required
+    // pc_out：对齐情况（如果你认为必须对齐，可把 misaligned 改 illegal_bins）
+    cp_pc_align: coverpoint m_item.pc_out[1:0] {
+      bins aligned = {2'b00};
+      bins misaligned = {[2'b01:2'b11]};
+    }
 
-    cp_jalr_target_offset: coverpoint m_item.jalr_target_offset;
-    //  Add bins here if required
+    // jalr_target_offset：零/非零 + 符号（偏移常有正负）
+    cp_jalr_off_zero: coverpoint (m_item.jalr_target_offset == 32'h0) {
+      bins zero = {1}; bins nonzero = {0};
+    }
+    cp_jalr_off_sign: coverpoint m_item.jalr_target_offset[31] { bins pos = {0}; bins neg = {1}; }
 
-    cp_jalr_flag: coverpoint m_item.jalr_flag;
-    //  Add bins here if required
-
-    cp_pc_out: coverpoint m_item.pc_out;
-    //  Add bins here if required
-
-    cp_overflow: coverpoint m_item.overflow;
-    //  Add bins here if required
+    // ---------- 关键组合覆盖（你只看 output 时最值钱的部分） ----------
+    cx_flow: cross cp_pc_src, cp_jalr_flag;
+    cx_ovf_flow: cross cp_overflow, cp_pc_src;
 
   endgroup
 
+  // covergroup m_cov;
+  //   option.per_instance = 1;
+  //   // You may insert additional coverpoints here ...
+
+  //   cp_control_out: coverpoint m_item.control_out;
+  //   //  Add bins here if required
+
+  //   cp_alu_data: coverpoint m_item.alu_data;
+  //   //  Add bins here if required
+
+  //   cp_memory_data: coverpoint m_item.memory_data;
+  //   //  Add bins here if required
+
+  //   cp_pc_src: coverpoint m_item.pc_src;
+  //   //  Add bins here if required
+
+  //   cp_jalr_target_offset: coverpoint m_item.jalr_target_offset;
+  //   //  Add bins here if required
+
+  //   cp_jalr_flag: coverpoint m_item.jalr_flag;
+  //   //  Add bins here if required
+
+  //   cp_pc_out: coverpoint m_item.pc_out;
+  //   //  Add bins here if required
+
+  //   cp_overflow: coverpoint m_item.overflow;
+  //   //  Add bins here if required
+
+  // endgroup
+
+>>>>>>> 4822289 (first version)
   // You can remove new, write, and report_phase by setting agent_cover_generate_methods_inside_class = no in file execute_out.tpl
 
   extern function new(string name, uvm_component parent);
@@ -93,7 +135,11 @@ endfunction : write
 
 function void execute_out_coverage::build_phase(uvm_phase phase);
   if (!uvm_config_db #(execute_out_config)::get(this, "", "config", m_config))
+<<<<<<< HEAD
     `uvm_error(get_type_name(), "execute_out config not found")
+=======
+    `uvm_fatal(get_type_name(), "execute_out config not found")
+>>>>>>> 4822289 (first version)
 endfunction : build_phase
 
 
